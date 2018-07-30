@@ -37,7 +37,16 @@ TODO
 \maketitle
 
 \section{Introduction}
-TODO
+On November 28th, 2017, innovation studio Axiom Zen launched a product whose goal was to help build a better onboarding system of the Ethereum network. Cryptokitties took the cryptocommunity by storm, demonstrating that there were viable applications for consumers that could be deployed on blockchains. But more importantly, the success of the game proved a long-held view of distributed ledger technology systems - they weren't ready for real world applications. Cryptokitties began to clog up the ethereum network, leading to a "sixfold increase in total network requests" \cite{ConsensysCryptokitties}. This made one thing clear, today's blockchains are not ready to scale for tomorrow's society.
+
+\subsection{Problem Definition}
+The emergence of blockchain technology has brought with it the ability to replace trusted third party intermediaries by disruping the current financial climate. Its potential applications offer a variety of uses that provide more accountability and require less trust to achieve. Blockchains put an emphasis on mitigating trust and giving power to the end-users through decentralization. They also stress strong tamper-evident and immutable characteristics via security implementations.
+
+Current blockchains, however, are not scalable. The two most popular blockchains, Bitcoin and Ethereum, can only process upto 7tps and 15tps (transactions per second), respectively \cite{NeedCitation, ForBoth}. Whereas centralized entities today, like Paypal and Visa, can offer upto 450tps \cite{PaypalTPS} and 56,000tps \cite{VisaTPS} - magnitudes of order more than most blockchains. If blockchains are to replace the current antiquated systems, then we must find a way to allow them to match the increasing demand of transactions in our world today. This then poses the question: How?
+
+There are a myriad of scalability solutions today: off-chain solutions, alternative consensus, network changes etc. This paper aims to give an understanding of the various popular scalability solutions and the feasibility of each. We analyze each possible solution by looking at which layer(s) in the blockchain the solution lies. This is a key forethought, because in order to truly scale public blockchains, we must implement solutions at each layer of a blockchain. It is insufficient to scale just one layer.
+
+
 
 \section{Background and Related Work}
 TODO
@@ -169,6 +178,22 @@ TODO
 \section{Conclusion}
 TODO
 
-\bibliographystyle{plain}
-\bibliography{references}
+\begin{thebibliography}{1}
+
+\bibitem{ConsensysCryptokitties} 
+ConsenSys. 
+\textit{The Inside Story of the CryptoKitties Congestion Crisis}, February 20, 2018
+
+\bibitem{PaypalTPS}
+5 Things PayPal Holdings Inc Wants You to Know.
+\textit{https://www.fool.com/investing/general/2016/02/04/5-things-paypal-holdings-inc-wants-you-to-know.aspx}
+
+\bibitem{VisaTPS}
+Visa Inc. at a Glance.
+\textit{https://usa.visa.com/dam/VCOM/download/corporate/media/visa-fact-sheet-Jun2015.pdf}
+
+
+\end{thebibliography}
+
+
 \end{document}

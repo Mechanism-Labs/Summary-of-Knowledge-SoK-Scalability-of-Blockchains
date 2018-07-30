@@ -7,6 +7,7 @@ This paper aims to offer a collection of the most popular blockchain scalability
 This paper is a collaborative, community effort. Submit PRs to contribute.
 
 ##  Contribution Guidelines
-1. Ensure you push both the latex files and the most recent pdf format
-2. Ensure you follow the latex formatting. When making a PR remember to finish your citations, fix your grammar, define vocabulary that you use in advance. 
-3. Have fun discussing your ideas with other people on our telegram:  https://t.me/joinchat/GcpOPw-JcdUOGBum6ZNy7A
+1. Please use (or create if it does not exist) the appropriate branch for the changes you would like to make.
+2. Ensure you push both the latex files and the most recent pdf format
+3. Ensure you follow the latex formatting. When making a PR remember to finish your citations, fix your grammar, define vocabulary that you use in advance. 
+4. Have fun discussing your ideas with other people on our telegram:  https://t.me/joinchat/GcpOPw-JcdUOGBum6ZNy7A
