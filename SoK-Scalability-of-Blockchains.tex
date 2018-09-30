@@ -5,7 +5,7 @@
 \author{
 \\ \small{Mechanism Labs} \\ \small{Maaz Uddin, ...}}
 
-\date{July 2018}
+\date{September 2018}
 
 \addtolength{\oddsidemargin}{-.47in}
 \addtolength{\evensidemargin}{-.47in}
@@ -52,7 +52,13 @@ There are a myriad of scalability solutions today: off-chain solutions, alternat
 TODO
 
 \section{Scalability Solutions From Different Perspectives - the Blockchain Stack}
-TODO
+Like the internet, blockchains are divided into different layers. Each layer deals with a series of tasks that are required for the blockchain to run. The layers operate within themselves, but rely on the layers beneath them to operate correctly. This separation of responsibility instills a common computing paradigm known as abstraction.
+
+The beauty of abstraction is that you can reinvent different aspects of each layer independently without necessarily worrying about how it might affect the other layers (so long as the endpoints connecting the layers are still intact). This allows us to ignore lower layer dependencies by simply considering them as a "blackbox".
+
+This is a key consideration when diving into the scalability problem. Because many of the layers of blockchains are partitioned in such a way, we can isolate certain problems to specific layers and work towards making them more efficient without complicating the process with extraneous factors\footnotemark. Below, we touch upon each layer of the blockchain stack starting from the bottom and moving up - Hardware, Network, Consensus, Sybil Control, and Application. We will then go into more detail about each layer in later sections, discussing the various solutions existing in each layer or how they may overlap over multiple layers.
+
+\footnotetext{It is important to note that good scalability should consider scalable solutions at all layers and how they work in cohesion rather than in separation}
 
 \subsection{Hardware}
 TODO
