@@ -11,3 +11,4 @@ This paper is a collaborative, community effort. Submit PRs to contribute.
 2. Ensure you push both the latex files and the most recent pdf format
 3. Ensure you follow the latex formatting. When making a PR remember to finish your citations, fix your grammar, define vocabulary that you use in advance. 
 4. Have fun discussing your ideas with other people on our telegram:  https://t.me/joinchat/GcpOPw-JcdUOGBum6ZNy7A
+5. Notes from our weekly calls and discussions https://docs.google.com/spreadsheets/d/1t5q6w6Es1Ne_wKK4u3yr-YzsxMDVbbpF4ilR9A6E6s0/edit#gid=0
